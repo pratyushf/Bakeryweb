@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muffins Bakery</title>
+    <link rel="stylesheet" href="css/Bakery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Phudu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('img/pexels-life-of-pix-9095.jpg');
+            background-size: cover;
+            background-repeat: repeat-y;
+            height: 2000px;
+        }
+        .left{
+            color: white;
+            display: inline-block;
+            left: 30px;
+            top: 34px;
+            position: absolute;
+            text-align: center;
+            height: 500px;
+            width: 200px;
+            
+        }
+        .Muffin{
+            
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            background-color:palevioletred;
+            border-radius: 100px;
+            padding: 10px 10px;
+        }
+        .left img{
+            width: 100px;
+            height: 80px;
+            border-radius: 100px;
+            
+        }
+        #myname,#myno,#myadd{
+            margin: 10px 0px;
+            padding-bottom: 10px;
+            text-align: left;
+        }
+        .navclass{
+            
+            background-color: black;
+            border-radius: 10px;
+            margin-bottom: 100px;
+        }
+        .navclass li{
+            display: inline-block;
+            margin: 10px 10px;
+            
+        }
+        
+        .navclass li a{
+            color: whitesmoke;
+            margin: 10px 9px;
+            padding: 0px 6px;
+            text-decoration: none;
+            
+        }
+        .navclass li a:hover{
+            background-color: brown;
+            border-radius: 12px;
+        }
+        .img{
+            position: absolute;
+            left: 60px;
+            top: 34px;
+
+        }
+        .mid{
+            display: block;
+             width: 36%;
+            margin: 29px auto;
+            
+        }
+        #about{
+            text-align: center;
+            background-color: lightgoldenrodyellow;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            padding: 10px 0px;
+            border-radius: 10px;
+            margin: 20px 0px;
+        }
+
+        .aboutus{
+            background-color: rgb(252, 233, 233);
+            
+            padding: 10px 20px;
+            font-family: 'Golos Text', sans-serif;
+            font-family: 'Phudu', cursive;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        .right{
+            /* border: 2px red solid; */
+            color: sandybrown; 
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 34px;
+            
+        }
+        .btn {
+            display: inline-block;
+            margin:0px 0px;
+            width: fit-content;
+            background-color:rgb(133, 26, 65);
+            border-radius: 100px;
+        }
+        .btn a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/5457.png_860.png" alt="">
+            <div class="Muffin">Muffin Bakers <br> Estd.1990</div><br>
+            <div class="inp">
+            <label for="myname">Enter Your Name:</label>
+            <div><input type="text" id="myname"></div>
+            <label for="myno">Enter Your Contact no. :</label>
+            <div><input type="text" id="myno"></div>
+            <label for="myadd">Enter Your Address:</label>
+            <div><input type="text" id="myadd"></div>
+            <button class="but2">Order Now</button>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="navclass">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Our Products</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Feedback</a></li>
+                </ul>
+            </div>
+            <div id="about"> ||| About Muffins Bakery ||| </div>
+            <p class="aboutus">The bakery is a quaint little shop nestled in the heart of a bustling city. As soon as you step inside, the tantalizing aroma of freshly baked bread and pastries wafts through the air, making your mouth water. The shelves are lined with an array of delicious treats, from flaky croissants to decadent chocolate cakes. The friendly staff greets you warmly and offers expert recommendations on their specialties, such as artisanal sourdough loaves and classic cinnamon rolls. The warm and inviting atmosphere of the bakery makes it the perfect spot to enjoy a morning pastry or an afternoon coffee with friends.</p>
+        </div>
+        <div class="right">
+            <button class="btn"><a href="#cart">Go to Cart</a></button>
+            <button class="btn"><a href="#cart">Log Out</a></button>
+        </div>
+    </header>
+</body>
+</html>
